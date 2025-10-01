@@ -116,7 +116,7 @@ const config: Config = {
           items: [
             {
               label: "Email",
-              href: "mailto:diegoromero.dev@gmail.com",
+              href: "mailto:dfrn2004@gmail.com",
             },
           ],
         },
