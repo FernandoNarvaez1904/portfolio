@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to My Portfolio
 
-Let's discover **Docusaurus in less than 5 minutes**.
+:::warning Portfolio Under Construction
+This portfolio is still being written and updated. Some sections may be incomplete or under development. Thank you for your patience!
+:::
 
-## Getting Started
+Hi there! I'm Diego Romero, a passionate full-stack developer who loves building amazing web applications and solving complex problems with code. I've been working in software development since 2018, and I'm excited to share my journey with you.
 
-Get started by **creating a new site**.
+## What You'll Find Here
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This is my personal portfolio where I showcase my work, skills, and the projects I'm most proud of. I've organized everything into sections that tell the story of my career:
 
-### What you'll need
+- **My Experience** - The companies I've worked with and what I've built
+- **My Education** - My academic journey and leadership roles
+- **My Skills** - The technologies I work with and love
+- **My Projects** - The cool stuff I've created and their impact
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## A Little About Me
 
-## Generate a new site
+I'm a software engineer with a Bachelor's degree from Keiser University, currently based in Managua, Nicaragua. I've had the incredible opportunity to work with amazing teams and build everything from simple websites to complex enterprise systems that actually make a difference.
 
-Generate a new Docusaurus site using the **classic template**.
+### What I'm Proud Of
 
-The classic template will automatically be added to your project after you run the command:
+- **Full-Stack Development** - I love working with React.js, Next.js, Node.js, Python, and all the modern tools
+- **Leading by Example** - I founded the Software Engineering club at my university and created the first SE Fest
+- **AI & Machine Learning** - I've built NLP models and intelligent automation systems
+- **Teaching Others** - I've created programming curricula for kids and teens because I believe in sharing knowledge
+- **Being Multilingual** - I'm fluent in both English and Spanish, which helps me work with diverse teams
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Let's Connect
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Take a look around and see what I've been working on! I'm always excited to talk about technology, new projects, or potential opportunities. Don't hesitate to reach out if you want to chat about anything you see here.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+**Get in touch:**
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- **Email:** dfrn2003@gmail.com
+- **WhatsApp/Phone:** +505 8641 7096
+- **LinkedIn:** [diegoromero-dev](https://www.linkedin.com/in/diegoromero-dev/)
