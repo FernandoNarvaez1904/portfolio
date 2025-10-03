@@ -25,6 +25,7 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Relevant Projects",
+      collapsed: false,
       items: ["projects/storefront-pos", "projects/tkd-management-system"],
     },
   ],
