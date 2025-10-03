@@ -59,12 +59,24 @@ function DiplomaFrame() {
           "perspective(1000px) rotateX(3deg) rotateY(0deg) rotateZ(-1deg)";
         e.currentTarget.style.boxShadow =
           "0 25px 70px rgba(0, 0, 0, 0.6), inset 0 3px 6px rgba(255, 255, 255, 0.1), inset 0 -3px 6px rgba(0, 0, 0, 0.3), 0 0 0 2px #654321, 0 0 0 4px #8B4513";
+
+        // Show click hint
+        const hint = e.currentTarget.querySelector(
+          ".diploma-click-hint"
+        ) as HTMLElement;
+        if (hint) hint.style.opacity = "1";
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform =
           "perspective(1000px) rotateX(-1deg) rotateY(0deg) rotateZ(1deg)";
         e.currentTarget.style.boxShadow =
           "0 20px 60px rgba(0, 0, 0, 0.5), inset 0 3px 6px rgba(255, 255, 255, 0.1), inset 0 -3px 6px rgba(0, 0, 0, 0.3), 0 0 0 2px #654321, 0 0 0 4px #8B4513";
+
+        // Hide click hint
+        const hint = e.currentTarget.querySelector(
+          ".diploma-click-hint"
+        ) as HTMLElement;
+        if (hint) hint.style.opacity = "0";
       }}
     >
       {/* Corner decorations */}
@@ -136,7 +148,7 @@ function DiplomaFrame() {
       >
         <img
           src="/img/diploma.png"
-          alt="My Diploma"
+          alt="My Diploma - Click to view fullscreen"
           style={{
             display: "block",
             borderRadius: "0.25rem",
@@ -147,6 +159,29 @@ function DiplomaFrame() {
             height: "auto",
           }}
         />
+
+        {/* Click indicator */}
+        <div
+          style={{
+            position: "absolute",
+            bottom: "0.5rem",
+            left: "50%",
+            transform: "translateX(-50%)",
+            background: "rgba(0, 0, 0, 0.7)",
+            color: "white",
+            padding: "0.25rem 0.5rem",
+            borderRadius: "0.25rem",
+            fontSize: "0.75rem",
+            fontWeight: "500",
+            zIndex: 20,
+            pointerEvents: "none",
+            opacity: 0,
+            transition: "opacity 0.3s ease",
+          }}
+          className="diploma-click-hint"
+        >
+          Click to view fullscreen
+        </div>
       </div>
     </div>
   );
