@@ -1,20 +1,16 @@
-# My Education
+# My College Experience
 
 ## Bachelor's Degree in Software Engineering
 
 **Keiser University** | _2020 - 2023_
 
-I graduated with a Bachelor's degree in Software Engineering from Keiser University, and it was honestly one of the best experiences of my life. The program was based in Florida, but I was able to complete it remotely, which gave me the flexibility to work on projects and gain real-world experience while studying.
+I graduated with a Bachelor's degree in Software Engineering from Keiser University. My college years were extremely important for my development as an engineer. I did things like founding the Software Engineering club, creating the first Software Engineering Fest, serving as a dean's assistant, and contributing to curriculum development. I was fortunate to receive a grant that covered 80-85% of my college career based on my academic excellence and martial arts achievements. Keiser University is based in the United States but has a campus here in Nicaragua, which gave me the opportunity to study locally while still getting a high-quality American education.
 
 import DiplomaFrame from '@site/src/components/DiplomaFrame';
 
 <DiplomaFrame />
 
 ## What I'm Proud Of
-
-### Academic Achievements
-
-I was incredibly honored to receive the biggest scholarship that Keiser University offered. It was a huge relief for my family and gave me the confidence that I was on the right path. The scholarship also motivated me to work even harder and make the most of my education.
 
 ### Dean's Assistant Role
 
@@ -26,9 +22,9 @@ I'm really proud of founding the Software Engineering club at my university. I n
 
 The club became a place where students could learn from each other, work on group projects, and even bring in industry speakers. It was amazing to see how it grew and how many students benefited from having that community.
 
-### Creating SE Fest
+### Creating Software Engineering Fest
 
-One of my biggest accomplishments was starting and planning the first Software Engineering Festival (SE Fest). I wanted to create an event where students could showcase their projects, learn from industry professionals, and network with each other.
+One of my biggest accomplishments was starting and planning the first Software Engineering Fest. I wanted to create an event where students could showcase their projects, learn from industry professionals, and network with each other.
 
 The first year was a lot of work - I had to plan everything from scratch, coordinate with speakers, organize the venue, and make sure everything ran smoothly. But it was so worth it! The event was a huge success, and now it's become an annual tradition that students look forward to every year.
 
@@ -54,9 +50,9 @@ Leading the Software Engineering club taught me so much about leadership and com
 - Create an inclusive environment where everyone felt welcome
 - Balance my own studies with club responsibilities
 
-### SE Fest Organization
+### Software Engineering Fest Organization
 
-Planning and executing the first SE Fest was one of the most challenging and rewarding experiences of my university career. I had to:
+Planning and executing the first Software Engineering Fest was one of the most challenging and rewarding experiences of my university career. I had to:
 
 - Coordinate with multiple stakeholders (students, faculty, industry professionals)
 - Manage logistics and event planning
@@ -65,7 +61,7 @@ Planning and executing the first SE Fest was one of the most challenging and rew
 
 ## The Impact
 
-Looking back, I'm really proud of what I accomplished during my time at Keiser University. The Software Engineering club I founded is still active and helping students, and the SE Fest has become a tradition that brings the community together every year.
+Looking back, I'm really proud of what I accomplished during my time at Keiser University. The Software Engineering club I founded is still active and helping students, and the Software Engineering Fest has become a tradition that brings the community together every year.
 
 My work as a dean's assistant and curriculum contributor showed me that I could make a difference beyond just my own studies. It taught me the importance of giving back to the community and helping others succeed.
 

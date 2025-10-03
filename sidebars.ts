@@ -17,8 +17,11 @@ const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     "intro",
     "experience",
-    "education",
-    "skills",
+    {
+      type: "doc",
+      id: "education",
+      label: "My College Experience",
+    },
     {
       type: "category",
       label: "Relevant Projects",
