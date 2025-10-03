@@ -1,59 +1,76 @@
 # My Work Experience
 
-## Current Role
+## Professional Experience
 
 ### Ahinko International
 
 **Full-Stack Web Developer** | _October 2024 - Present_
 
-I work closely with clients to maintain a custom WordPress theme using PHP, Tailwind, and jQuery. This frontend connects with a Node.js backend built with Express. I have helped with the implementation of the REST API that connects with third party services like Salesmate, Mailchimp, MemberPress, Sticky, etc.
+I work closely with clients to maintain a custom WordPress theme using **PHP**, **Tailwind**, and **jQuery**. This frontend connects with a **Node.js** backend built with **Express**. I have helped with the implementation of the REST API that connects with third party services like **Salesmate**, **Mailchimp**, **MemberPress**, **Sticky**, etc.
 
-I also created a frontend in React.js for an internal application to be sold in the future. The frontend connects with a REST API created with FastAPI. I created the frontend using React.js, Tailwind, Tanstack Router, React Query v5, and TypeScript. I am using the OpenAPI (Swagger) spec to auto generate the types.
-
-## Previous Roles
+I also created a frontend in **React.js** for an internal application to be sold in the future. The frontend connects with a REST API created with **FastAPI**. I created the frontend using **React.js**, **Tailwind**, **Tanstack Router**, **React Query v5**, and **TypeScript**. I am using the **OpenAPI (Swagger)** spec to auto generate the types.
 
 ### American Nicaraguan School
 
 **Full-Stack Web Developer** | _June 2024 - October 2024_
 
-I successfully launched an app to allow parent's to easily and securely enroll their children in after school activities. It was built with Next.js for the frontend, and Node for some services. It is using a Turborepo monorepo. I used tailwind for styling.
+I successfully launched an enrollment platform that allows parents to securely register their children for after school activities. Built with **Next.js**, **Node.js**, and **Tailwind CSS** in a **Turborepo** monorepo, the platform features real-time availability updates and **AES encryption** to maintain student privacy. I also maintained their existing **WordPress** website, ensuring smooth operation and regular updates. Additionally, I created many other smaller projects and tools to support various school operations.
 
-I also created an app to keep track of the clinic's medical record. The students are searchable by grade or ID. It sends automatic emails to parents and directors when a kid visits the clinic, or when certain procedures or medicine need to be given. It encrypts all data using AES 128, and it also creates beautiful graphs to analyze the "health status" of the school and help detect environmental factors. The technologies used are Next.js, Node, Tailwind, PostgreSQL, Turborepo, Typescript and TRPC.
+Beyond development work, I also served as an assistant teacher for the robotics class, helping students learn programming concepts and hands-on robotics skills while supporting the main instructor with student guidance. I was part of creating a new coordinate and navigation system for the robotics team's WRO (World Robot Olympiad) competition.
 
 ### Ostuma Consulting
 
 **Junior Consultant and Freelancer** | _2021 - 2023_
 
-I made two natural language processing (NLP) classification AI models, using Python. It had an API so that other services could interact with it. The API was built with Django.
+My role at Ostuma Consulting was quite varied, spanning both technical development and business consulting. Here are some of the key projects I worked on:
 
-I created a bot that scraped government tender offers, to filter the ones relevant for the company's business and select the most relevant to win. I used python for the scraping.
+- **NLP AI Models**: Developed two natural language processing classification AI models using **Python** and **SpaCy**, with a **Django**-based API that enabled other services to interact with the models seamlessly.
 
-I coded a software that allowed to have secure anonymous chat meetings, where messages could be classified, voted, and merged. It used React in the frontend, and Django with a GraphQL API in the backend. Deployed in AWS EC2.
+- **Government Tender Scraping Bot**: Created an automated web scraping bot that collected government tender offers and intelligently filtered them to identify the most relevant opportunities for the company's business, significantly improving the tender selection process.
 
-As a junior management consultant, I analyzed client processes and requirements, and presented recommendations for continuous improvement using BPM and BPMN to optimize business operations.
+- **Secure Anonymous Chat Platform**: Built a confidential meeting platform with advanced features including message classification, voting systems, and message merging capabilities. The platform was built with **React** frontend and **Django** with **GraphQL** API backend, deployed on **AWS EC2**.
+
+- **Business Process Consulting**: As a junior management consultant, conducted comprehensive analysis of client business processes and requirements, delivering actionable recommendations for continuous improvement using **Business Process Management (BPM)** and **BPMN** methodologies to optimize operational efficiency.
 
 ### Smart Billing Integrated System
 
 **Junior Developer** | _2019 - 2021_
 
-I was part of a team responsible for the Inventory and POS System. I contributed in the backend (we used C#) and in the frontend. I was mostly responsible for creating endpoints for the inventory module.
+I was part of a development team responsible for building a comprehensive Inventory and POS System. I contributed to both the backend development using **C#** and the frontend implementation. My primary responsibility was creating and maintaining the API endpoints for the inventory module, ensuring seamless data flow between the frontend and database.
 
-I created an internal (slack-like) messaging system using Django and React.
+Additionally, I developed an internal messaging system similar to Slack for the POS system using **Django** for the backend and **React** for the frontend, enabling real-time communication within the organization.
 
 ## Freelance Experience
 
-### Notable Freelance Projects | _2018 - 2024_
+### Grocery Store Online Ordering System
 
-I developed a Point of Sale system for a Minimarket. The POS connects with the Bank's API in order to process payments, and keeps track of inventory.
+I developed a web app where local grocery store clients could create delivery orders that are sent to **WhatsApp** for processing. I used the **T3 stack** (**Next.js**, **TypeScript**, **tRPC**, **Prisma**) and integrated with an existing POS database using **SQL Server**. Here its a video on how the platfform works:
 
-I developed a web app where a local grocery store's clients could order online and get their orders delivered. Using Next.js and SQL Server.
+<div style={{textAlign: "center", margin: "20px 0"}}>
+  <iframe 
+    width="560" 
+    height="600" 
+    src="https://www.youtube.com/embed/NCkRjmkXpEE" 
+    title="Grocery Store Online Ordering System Demo" 
+    frameBorder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowFullScreen
+    style={{maxWidth: "100%", height: "350px", borderRadius: "8px", boxShadow: "0 4px 8px rgba(0,0,0,0.1)"}}>
+  </iframe>
+</div>
 
-I built a web application where people can apply for jobs for a company. Built with Next.js and connected to a SQLServer Database.
+### Job Application Web Application
 
-I designed two curriculums to teach programming for a local technology education company. One of them was for kids, using Minecraft education; the other one designed for Teens teaches Django and React.
+I built a web application where people can apply for jobs at a major credit institution in my country. The application was built with **Next.js** and connected to a **SQL Server** database. It handled document uploads to cloud storage, integrated with their existing hiring process, and featured a dynamic multi-step form for job applications.
 
-## What I've Learned
+### Programming Education Curriculums
 
-Each role and project has taught me something valuable. I've learned that being a good developer isn't just about writing code - it's about understanding business needs, working with teams, and always being willing to learn new technologies. I've also discovered that I really enjoy mentoring others and sharing knowledge, which is why I've been involved in education and community building throughout my career.
+I designed two comprehensive programming curriculums for a local technology education company. The first curriculum was designed for kids and used **Minecraft Education Edition** to make programming fun and engaging. The second curriculum was created for teenagers and focused on teaching modern web development with **Django** and **React**.
 
-The variety of projects I've worked on has given me a broad perspective on software development, from simple websites to complex AI systems. I love that every day brings new challenges and opportunities to grow as a developer.
+### A ton of WordPress websites
+
+I have developed numerous **WordPress** websites for various clients, creating custom themes, plugins, and implementing responsive designs. In most of them I used **Elementor** for page building. These projects involved custom **PHP** development, theme customization, plugin integration, and ensuring optimal performance and **SEO**.
+
+## References
+
+I don't include client references directly on this website to protect their privacy in the public internet, but I'm happy to provide references upon request. If you'd like to speak with previous clients about my work, please send me an email at dfrn2003@gmail.com and I'll be glad to connect you with relevant references.
