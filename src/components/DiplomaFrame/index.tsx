@@ -3,13 +3,26 @@ import React from "react";
 function DiplomaFrame() {
   const handleImageClick = () => {
     const modal = document.createElement("div");
-    modal.className =
-      "fixed inset-0 bg-black bg-opacity-90 flex justify-center items-center z-50 cursor-pointer";
+    modal.style.cssText = `
+      position: fixed;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 50;
+      cursor: pointer;
+    `;
 
     const img = document.createElement("img");
     img.src = "/img/diploma.png";
-    img.className =
-      "max-w-[90%] max-h-[90%] object-contain rounded-lg shadow-2xl";
+    img.style.cssText = `
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+      border-radius: 0.5rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    `;
 
     modal.appendChild(img);
     document.body.appendChild(modal);
@@ -21,9 +34,20 @@ function DiplomaFrame() {
 
   return (
     <div
-      className="flex justify-center mx-auto my-5 p-3 bg-cover bg-no-repeat bg-center rounded-2xl relative w-fit cursor-pointer transition-all duration-300 ease-in-out"
       style={{
+        display: "flex",
+        justifyContent: "center",
+        margin: "1.25rem auto",
+        padding: "0.75rem",
         backgroundImage: "url('/img/wood.jpg')",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        borderRadius: "1rem",
+        position: "relative",
+        width: "fit-content",
+        cursor: "pointer",
+        transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
         boxShadow:
           "0 20px 60px rgba(0, 0, 0, 0.5), inset 0 3px 6px rgba(255, 255, 255, 0.1), inset 0 -3px 6px rgba(0, 0, 0, 0.3), 0 0 0 2px #654321, 0 0 0 4px #8B4513",
         border: "6px solid #654321",
@@ -45,34 +69,64 @@ function DiplomaFrame() {
     >
       {/* Corner decorations */}
       <div
-        className="absolute top-2 left-2 text-2xl text-amber-800 z-20"
-        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+        style={{
+          position: "absolute",
+          top: "0.5rem",
+          left: "0.5rem",
+          fontSize: "1.5rem",
+          color: "#953d00",
+          zIndex: 20,
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+        }}
       >
         ◆
       </div>
       <div
-        className="absolute top-2 right-2 text-2xl text-amber-800 z-20"
-        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+        style={{
+          position: "absolute",
+          top: "0.5rem",
+          right: "0.5rem",
+          fontSize: "1.5rem",
+          color: "#953d00",
+          zIndex: 20,
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+        }}
       >
         ◆
       </div>
       <div
-        className="absolute bottom-2 left-2 text-2xl text-amber-800 z-20"
-        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+        style={{
+          position: "absolute",
+          bottom: "0.5rem",
+          left: "0.5rem",
+          fontSize: "1.5rem",
+          color: "#953d00",
+          zIndex: 20,
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+        }}
       >
         ◆
       </div>
       <div
-        className="absolute bottom-2 right-2 text-2xl text-amber-800 z-20"
-        style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}
+        style={{
+          position: "absolute",
+          bottom: "0.5rem",
+          right: "0.5rem",
+          fontSize: "1.5rem",
+          color: "#953d00",
+          zIndex: 20,
+          textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+        }}
       >
         ◆
       </div>
 
       {/* Inner frame */}
       <div
-        className="p-0 rounded-lg relative"
         style={{
+          padding: 0,
+          borderRadius: "0.5rem",
+          position: "relative",
           background:
             "linear-gradient(135deg, #fafafa 0%, #ffffff 30%, #f5f5f5 70%, #ffffff 100%)",
           boxShadow:
@@ -83,8 +137,15 @@ function DiplomaFrame() {
         <img
           src="/img/diploma.png"
           alt="My Diploma"
-          className="block rounded shadow-lg relative z-10"
-          style={{ maxWidth: "350px", height: "auto" }}
+          style={{
+            display: "block",
+            borderRadius: "0.25rem",
+            boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+            position: "relative",
+            zIndex: 10,
+            maxWidth: "350px",
+            height: "auto",
+          }}
         />
       </div>
     </div>

@@ -63,6 +63,8 @@ const config: Config = {
     ],
   ],
 
+  plugins: [],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
@@ -145,8 +147,6 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-
-  plugins: ["./src/plugins/tailwind-config.js"],
 };
 
 export default config;
