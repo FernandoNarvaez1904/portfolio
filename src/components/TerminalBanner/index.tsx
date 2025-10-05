@@ -1,6 +1,6 @@
 import React from "react";
 
-Y ADexport interface TerminalBannerProps {
+export interface TerminalBannerProps {
   name: string;
   about: string;
   className?: string;
