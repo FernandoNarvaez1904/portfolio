@@ -1,10 +1,14 @@
 ---
 sidebar_position: 1
+title: ""
 ---
 
-# Welcome to My Portfolio
+import TerminalBanner from '@site/src/components/TerminalBanner';
 
-Hi there! I'm Diego Romero, a passionate full-stack developer who loves building amazing web applications and solving complex problems with code. I've been working in software development since 2018, and I'm excited to share my journey with you.
+<TerminalBanner
+  name="Diego Romero"
+  about="Hi there! I'm Diego Romero, a passionate full-stack developer who loves building amazing web applications and solving complex problems with code. I've been working in software development since 2018, and I'm excited to share my journey with you."
+/>
 
 ## What You'll Find Here
 
