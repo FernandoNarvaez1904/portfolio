@@ -10,6 +10,8 @@ import TerminalBanner from '@site/src/components/TerminalBanner';
   about="Hi there! I'm Diego Romero, a passionate full-stack developer who loves building amazing web applications and solving complex problems with code. I've been working in software development since 2018, and I'm excited to share my journey with you."
 />
 
+<a className="cv-download" href="/files/Diego-Romero-CV.pdf" download="Diego-Romero-CV.pdf">Download CV <span aria-hidden="true">↓</span></a>
+
 ## What You'll Find Here
 
 This is my personal portfolio where I showcase my work, skills, and the projects I'm most proud of. I've organized everything into sections that tell the story of my career:
