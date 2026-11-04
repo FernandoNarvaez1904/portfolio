@@ -4,6 +4,12 @@
 
 Storefront connects the checkout counter with the rest of a retail business: sales, stock, purchasing, customers, money, and reporting. I develop the product across its web application, desktop POS, backend services, and integrations.
 
+## Explore Storefront
+
+Visit [storefrontpos.com](https://storefrontpos.com) for the product overview, current plans, and a demo, or [open the application](https://app.storefrontpos.com).
+
+The source code is private. For a technical walkthrough of my work, [get in touch by email](mailto:dfrn2003@gmail.com).
+
 <figure className="product-shot">
   <a href="/img/storefront/dashboard-20261005.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/dashboard-20261005.webp" alt="Storefront sales dashboard showing sales trends, top products, and payment summaries" /></a>
   <figcaption>Sales dashboard. Screenshot from the current Storefront website, October 2026. Open the image to view it at full size.</figcaption>
@@ -58,9 +64,3 @@ The product spans the browser, the checkout computer, and the backend. My work i
   <a href="/img/storefront/bodega-20261005.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/bodega-20261005.webp" alt="Storefront warehouse stock view showing product quantities by warehouse" loading="lazy" /></a>
   <figcaption>Warehouse stock visibility connects inventory management with daily store operations.</figcaption>
 </figure>
-
-## Explore Storefront
-
-Visit [storefrontpos.com](https://storefrontpos.com) for the product overview, current plans, and a demo, or [open the application](https://app.storefrontpos.com).
-
-The source code is private. For a technical walkthrough of my work, [get in touch by email](mailto:dfrn2003@gmail.com).
