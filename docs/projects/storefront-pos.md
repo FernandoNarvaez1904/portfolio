@@ -9,14 +9,35 @@ Storefront connects the checkout counter with the rest of a retail business: sal
   <figcaption>Sales dashboard. Screenshot from the current Storefront website, October 2026. Open the image to view it at full size.</figcaption>
 </figure>
 
-## One Connected Retail Operation
+## Modules and What They Do
 
-- **Sales and cash registers**: Record sales and payments, review transaction history, process returns, and manage cashier sessions.
-- **Inventory and warehouses**: Organize products and price lists, track stock by warehouse, and handle transfers, counts, and losses.
-- **Purchasing and suppliers**: Record purchases and connect incoming merchandise with inventory and supplier balances.
-- **Customers and balances**: Maintain customer records and follow up on accounts receivable and payable.
-- **Money and accounting**: Manage money accounts, record income and expenses, and review accounting information.
-- **Reporting and access**: Review business results from a browser and organize staff permissions, registers, warehouses, and branches. Available capacity depends on the subscription plan.
+Storefront organizes retail operations into 12 modules. Feature availability and capacity depend on the subscription plan and enabled add-ons.
+
+<div className="module-grid">
+<section><h3>Point of sale</h3><p>Manage checkout devices, cash registers, cashier sessions, and receipt settings.</p></section>
+<section><h3>Sales</h3><p>Review sales and returns, track payment status, and follow up on customer balances.</p></section>
+<section><h3>Inventory</h3><p>Manage products, categories, price lists, and stock across warehouses, including transfers, counts, and losses.</p></section>
+<section><h3>Purchasing</h3><p>Organize suppliers, record purchases, and track accounts payable.</p></section>
+<section><h3>BAC Credomatic</h3><p>Manage BAC terminals, card sales, refunds, bank points, and terminal closures.</p></section>
+<section><h3>Customers</h3><p>Maintain customer contacts and review their outstanding balances.</p></section>
+<section><h3>Finance</h3><p>Manage money accounts, income, expenses, and loans.</p></section>
+<section><h3>Marketing</h3><p>Configure customer loyalty programs and gift cards.</p></section>
+<section><h3>Accounting</h3><p>Organize accounts, journal entries, and financial statements.</p></section>
+<section><h3>Security</h3><p>Manage team members, invitations, and access permissions.</p></section>
+<section><h3>Audit</h3><p>Review record changes, who made them, and previous versions.</p></section>
+<section><h3>Settings</h3><p>Configure the organization, branches, and connected applications.</p></section>
+</div>
+
+## Desktop Checkout
+
+The Electron app provides a dedicated checkout workspace for the counter, with payment selection, sale totals, and customer loyalty controls. It also connects with thermal receipt printers.
+
+<figure className="product-shot">
+  <a href="/img/storefront/desktop-checkout.jpg" target="_blank" rel="noreferrer"><img src="/img/storefront/desktop-checkout.jpg" alt="Storefront Electron desktop checkout with payment methods, demo customer, loyalty points, and sale totals" loading="lazy" /></a>
+  <figcaption>Actual desktop application screenshot using a demo customer. Open the image to view the checkout at full size.</figcaption>
+</figure>
+
+## Web Sales Workspace
 
 <figure className="product-shot">
   <a href="/img/storefront/venta-20261005.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/venta-20261005.webp" alt="Storefront sale entry screen with customer details, products, quantities, and total" loading="lazy" /></a>
