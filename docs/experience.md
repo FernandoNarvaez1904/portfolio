@@ -10,6 +10,18 @@ I work closely with clients to maintain a custom WordPress theme using **PHP**, 
 
 I also created a frontend in **React.js** for an internal application to be sold in the future. The frontend connects with a REST API created with **FastAPI**. I created the frontend using **React.js**, **Tailwind**, **Tanstack Router**, **React Query v5**, and **TypeScript**. I am using the **OpenAPI (Swagger)** spec to auto generate the types.
 
+### Validia AI
+
+**Full-Stack Web Developer — Part-Time / Freelance** | _January 2026 - July 2026_
+
+I built AI applications with **React** and **FastAPI** in a fast-paced environment with changing requirements, working across both the frontend and backend.
+
+- **AI Chat Demo**: Built a chat interface and backend using the **Google AI SDK**, including tool calling and code execution.
+- **AI Labs Interfaces**: Created React interfaces to present distillation attack prompts and results, integrating with the **Hugging Face API**.
+- **Cross-Application Authentication**: Implemented authentication across applications, initially with **Better Auth** and later with **WorkOS**.
+- **Research Pipeline**: Orchestrated multiple AI agents to build a research pipeline for training a fine-tuned model.
+- **Sales Data Collection Platform**: Built a platform running on salespeople’s machines to collect data for analyzing sales strategies, using **FastAPI**, **React**, and **shadcn/ui**.
+
 ### American Nicaraguan School
 
 **Full-Stack Web Developer** | _June 2024 - October 2024_
@@ -41,6 +53,12 @@ I was part of a development team responsible for building a comprehensive Invent
 Additionally, I developed an internal messaging system similar to Slack for the POS system using **Django** for the backend and **React** for the frontend, enabling real-time communication within the organization.
 
 ## Freelance Experience
+
+### Point of Sale and Inventory Management
+
+I developed a POS system for a minimarket, connecting with the bank’s API to process payments and tracking inventory. This work combined retail workflows, payment integrations, and a desktop application built with **Electron**, **React**, **TanStack Start**, **Vite**, **Better Auth**, and a **Turborepo** monorepo.
+
+You can learn more on the [Storefront POS project page](/docs/projects/storefront-pos).
 
 ### Grocery Store Online Ordering System
 

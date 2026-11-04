@@ -22,12 +22,16 @@ This is my personal portfolio where I showcase my work, skills, and the projects
 
 I work with modern web technologies and enjoy building full-stack applications:
 
-- **Frontend**: React.js, Next.js, Tailwind CSS
-- **Backend**: Node.js, Next.js, Hono, Python, Django, FastAPI, Express
-- **Databases**: PostgreSQL, MySQL, Redis
-- **Tools**: Git, Docker, AWS, GraphQL, REST APIs
-- **Languages**: English, Spanish
-- **Programming Languages**: JavaScript, TypeScript, Python
+- **Frontend**: React, Next.js, TanStack Router, TanStack Start, React Query, Tailwind CSS, shadcn/ui
+- **Backend**: Node.js, Hono, Express, Python, Django, FastAPI
+- **Desktop and Build Tools**: Electron, Vite, Turborepo
+- **Databases**: PostgreSQL, MySQL, SQL Server, Redis
+- **APIs and Integration**: GraphQL, REST, tRPC, webhooks, OpenAPI, Zapier, ETL / ELT
+- **AI Development**: Google AI SDK, Hugging Face API, tool calling, code execution, multi-agent research pipelines
+- **Authentication**: Better Auth, WorkOS
+- **Infrastructure and Tools**: Git, Docker, AWS, serverless deployments, VPS
+- **Programming Languages**: TypeScript, JavaScript, Python, PHP, C#
+- **Languages**: English (fluent, C1 / C2), Spanish (native)
 
 ## A Little About Me
 

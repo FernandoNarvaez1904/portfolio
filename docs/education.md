@@ -2,7 +2,7 @@
 
 ## Bachelor's Degree in Software Engineering
 
-**Keiser University** | _2020 - 2023_
+**Keiser University** | _2020 - 2024_
 
 I graduated with a Bachelor's degree in Software Engineering from Keiser University. My college years were extremely important for my development as an engineer. I did things like founding the Software Engineering club, creating the first Software Engineering Fest, serving as a dean's assistant, and contributing to curriculum development. I was fortunate to receive a grant based on my academic excellence and martial arts achievements. Keiser University is based in the United States but has a campus here in Nicaragua, which gave me the opportunity to study locally while still getting a high-quality American education.
 
