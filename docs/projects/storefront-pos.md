@@ -1,8 +1,8 @@
 # Storefront POS
 
-**Commercial product** | Web and desktop software for retailers in Nicaragua
+**Commercial product in production** | Used by real customers in Nicaragua
 
-Storefront connects the checkout counter with the rest of a retail business: sales, stock, purchasing, customers, money, and reporting. I develop the product across its web application, desktop POS, backend services, and integrations.
+Storefront is a production system used by real retail customers in Nicaragua. It connects the checkout counter with the rest of a retail business: sales, stock, purchasing, customers, money, and reporting. I develop the product across its web application, desktop POS, backend services, and integrations.
 
 ## Explore Storefront
 
