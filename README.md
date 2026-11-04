@@ -33,3 +33,23 @@ pnpm deploy
 
 `pnpm deploy` publishes using the authenticated Wrangler account and selected
 Pages project. The production domain is https://diegoromero.dev.
+
+## Contact form
+
+The homepage submits to the Pages Function at `/api/contact`, which calls the
+private `portfolio-contact` Worker through the `CONTACT` service binding.
+The Worker verifies Turnstile on the server (including hostname and action),
+limits submission attempts, and sends email only to `dfrn2003@gmail.com`.
+The visitor's address is set as Reply-To. Messages are not stored in a database.
+
+The Worker and Turnstile widget belong to the dfrn2003 Cloudflare login,
+account `5e35bc173f144491322f1b581a218c5b`. Deploy Worker changes before Pages:
+
+```sh
+pnpm exec wrangler deploy --config workers/contact/wrangler.jsonc
+node --test workers/contact/handler.test.mjs
+```
+
+The `TURNSTILE_SECRET` Worker secret is managed in Cloudflare; never commit it.
+The public widget key is in `src/lib/contact-config.ts`. The widget is restricted
+to the production domain, so localhost and preview deployments cannot submit.

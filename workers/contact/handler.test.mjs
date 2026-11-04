@@ -1,0 +1,13 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {handleContact} from './handler.mjs';
+const good={name:'Test Sender',email:'test@example.com',message:'Contact form test message.',token:'test-token',website:''};
+const req=(body=good,origin='https://diegoromero.dev')=>new Request('https://diegoromero.dev/api/contact',{method:'POST',headers:{Origin:origin,'Content-Type':'application/json','CF-Connecting-IP':'192.0.2.1'},body:JSON.stringify(body)});
+const env={TURNSTILE_SECRET:'test-secret',RATE_LIMITER:{limit:async()=>({success:true})}};
+const verify=async()=>Response.json({success:true,hostname:'diegoromero.dev',action:'contact'});
+test('valid verified message sends once',async()=>{let count=0;const r=await handleContact(req(),env,async payload=>{count++;assert.equal(payload.email,good.email)},verify);assert.equal(r.status,200);assert.equal(count,1)});
+for(const [label,body] of [['missing token',{...good,token:''}],['header injection',{...good,email:'a@example.com\r\nBcc:x@example.com'}],['short message',{...good,message:'Hi'}],['honeypot',{...good,website:'spam'}],['oversized',{...good,message:'x'.repeat(17000)}]])test(label,async()=>{let sent=false;const r=await handleContact(req(body),env,async()=>sent=true,verify);assert.ok(r.status>=400);assert.equal(sent,false)});
+test('rejects foreign origins',async()=>assert.equal((await handleContact(req(good,'https://evil.example'),env,()=>assert.fail(),verify)).status,403));
+for(const check of [{success:false},{success:true,hostname:'evil.example',action:'contact'},{success:true,hostname:'diegoromero.dev',action:'other'}])test('rejects invalid Turnstile evidence '+JSON.stringify(check),async()=>assert.equal((await handleContact(req(),env,()=>assert.fail(),async()=>Response.json(check))).status,400));
+test('rate limit prevents sending',async()=>assert.equal((await handleContact(req(),{...env,RATE_LIMITER:{limit:async()=>({success:false})}},()=>assert.fail(),verify)).status,429));
+test('send failure never reports success',async()=>assert.equal((await handleContact(req(),env,async()=>{throw Error('email failed')},verify)).status,503));

@@ -33,15 +33,15 @@ Storefront organizes retail operations into 12 modules. Feature availability and
 The Electron app provides a dedicated checkout workspace for the counter, with payment selection, sale totals, and customer loyalty controls. It also connects with thermal receipt printers.
 
 <figure className="product-shot">
-  <a href="/img/storefront/desktop-checkout.jpg" target="_blank" rel="noreferrer"><img src="/img/storefront/desktop-checkout.jpg" alt="Storefront Electron desktop checkout with payment methods, demo customer, loyalty points, and sale totals" loading="lazy" /></a>
-  <figcaption>Actual desktop application screenshot using a demo customer. Open the image to view the checkout at full size.</figcaption>
+  <a href="/img/storefront/desktop-grid.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/desktop-grid.webp" alt="Storefront desktop POS product grid with product photos, prices, stock quantities, and the current sale" loading="lazy" /></a>
+  <figcaption>Desktop POS product grid with product photos, stock quantities, and the active sale. Open the image to view it at full size.</figcaption>
 </figure>
 
-## Web Sales Workspace
+## Sales Reporting
 
 <figure className="product-shot">
-  <a href="/img/storefront/venta-20261005.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/venta-20261005.webp" alt="Storefront sale entry screen with customer details, products, quantities, and total" loading="lazy" /></a>
-  <figcaption>The sales workflow brings customers, products, and totals together in one screen.</figcaption>
+  <a href="/img/storefront/dashboard-20261005.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/dashboard-20261005.webp" alt="Storefront reporting dashboard with sales charts and product performance" loading="lazy" /></a>
+  <figcaption>Sales trends, top products, and payment summaries help retailers understand business performance.</figcaption>
 </figure>
 
 ## My Engineering Work
