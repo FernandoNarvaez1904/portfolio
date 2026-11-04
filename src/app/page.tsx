@@ -1,3 +1,3 @@
-import { Content } from '@/lib/content';
-export const metadata = { alternates: { canonical: '/docs/intro/' } };
-export default function Home() { return <article><Content file="docs/intro.md" /></article>; }
+import Home from '@/components/Home';
+export const metadata = { alternates: { canonical: '/' } };
+export default function Page() { return <Home />; }
