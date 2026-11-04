@@ -1,7 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "portfolio",
-  "account_id": "5e35bc173f144491322f1b581a218c5b",
   "pages_build_output_dir": "./out",
   "compatibility_date": "2026-11-04"
 }
