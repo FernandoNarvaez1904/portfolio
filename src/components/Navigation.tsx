@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
-const links = [['/docs/intro', 'Welcome'], ['/docs/experience', 'My Work Experience'], ['/docs/education', 'My College Experience'], ['/docs/projects/storefront-pos', 'Storefront POS System'], ['/docs/projects/tkd-management-system', 'DojangPulse']];
+const links = [['/docs/intro', 'Welcome'], ['/docs/experience', 'My Work Experience'], ['/docs/education', 'My College Experience'], ['/docs/projects/storefront-pos', 'Storefront POS System']];
 export default function Navigation() {
   const pathname = usePathname();
   const [dark, setDark] = useState(false);

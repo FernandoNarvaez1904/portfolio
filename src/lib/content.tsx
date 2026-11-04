@@ -10,7 +10,6 @@ export const pages = [
   { slug: 'experience', title: 'My Work Experience' },
   { slug: 'education', title: 'My College Experience' },
   { slug: 'projects/storefront-pos', title: 'Storefront POS System' },
-  { slug: 'projects/tkd-management-system', title: 'DojangPulse' },
 ];
 export function Content({ file }: { file: string }) {
   const { content } = matter(fs.readFileSync(path.join(process.cwd(), file), 'utf8'));
