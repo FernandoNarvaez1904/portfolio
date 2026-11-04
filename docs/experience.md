@@ -56,7 +56,7 @@ Additionally, I developed an internal messaging system similar to Slack for the 
 
 ### Point of Sale and Inventory Management
 
-I developed a POS system for a minimarket, connecting with the bank’s API to process payments and tracking inventory. This work combined retail workflows, payment integrations, and a desktop application built with **Electron**, **React**, **TanStack Start**, **Vite**, **Better Auth**, and a **Turborepo** monorepo.
+I develop **Storefront POS**, a commercial retail platform for Nicaragua that connects sales, inventory, purchasing, customer and supplier balances, accounting, and reporting. My work spans a **React/Vite** web application, an **Electron** desktop POS, **BAC Credomatic** payment integration, and thermal receipt printing. The backend uses **Hono on Bun**, **tRPC**, **PostgreSQL**, **Drizzle**, and **Redis**, with **Better Auth** and shared business services in a **Turborepo** monorepo.
 
 You can learn more on the [Storefront POS project page](/docs/projects/storefront-pos).
 
