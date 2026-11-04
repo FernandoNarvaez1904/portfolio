@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "start": "next dev",
-    "build": "next build",
+    "build": "node -e \"require('node:fs').rmSync('out', { recursive: true, force: true })\" && next build",
     "typecheck": "tsc --noEmit",
     "preview": "pnpm build && wrangler pages dev out",
     "deploy": "pnpm build && CLOUDFLARE_ACCOUNT_ID=5e35bc173f144491322f1b581a218c5b wrangler pages deploy out --project-name portfolio"
