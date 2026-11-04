@@ -54,12 +54,6 @@ Additionally, I developed an internal messaging system similar to Slack for the 
 
 ## Freelance Experience
 
-### Point of Sale and Inventory Management
-
-I develop **Storefront POS**, a commercial retail platform for Nicaragua that connects sales, inventory, purchasing, customer and supplier balances, accounting, and reporting. My work spans a **React/Vite** web application, an **Electron** desktop POS, **BAC Credomatic** payment integration, and thermal receipt printing. The backend uses **Hono on Bun**, **tRPC**, **PostgreSQL**, **Drizzle**, and **Redis**, with **Better Auth** and shared business services in a **Turborepo** monorepo.
-
-You can learn more on the [Storefront POS project page](/docs/projects/storefront-pos).
-
 ### Grocery Store Online Ordering System
 
 I developed a web app where local grocery store clients could create delivery orders that are sent to **WhatsApp** for processing. I used the **T3 stack** (**Next.js**, **TypeScript**, **tRPC**, **Prisma**) and integrated with an existing POS database using **SQL Server**. Here its a video on how the platfform works:
