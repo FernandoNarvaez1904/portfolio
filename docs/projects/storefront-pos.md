@@ -8,7 +8,7 @@ Storefront connects the checkout counter with the rest of a retail business: sal
 
 Visit [storefrontpos.com](https://storefrontpos.com) for the product overview, current plans, and a demo, or [open the application](https://app.storefrontpos.com).
 
-The source code is private. For a technical walkthrough of my work, [get in touch by email](mailto:dfrn2003@gmail.com).
+The source code is private. For a technical walkthrough of my work, [get in touch](/#contact).
 
 <figure className="product-shot">
   <a href="/img/storefront/dashboard-20261005.webp" target="_blank" rel="noreferrer"><img src="/img/storefront/dashboard-20261005.webp" alt="Storefront sales dashboard showing sales trends, top products, and payment summaries" /></a>
