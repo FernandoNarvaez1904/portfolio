@@ -1,41 +1,35 @@
-# Website
+# Diego Romero Portfolio
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Personal portfolio built with Next.js App Router, React, TypeScript, and MDX.
 
-## Installation
+## Development
 
-```bash
-yarn
+Requires Node.js 20.9+ and pnpm.
+
+```sh
+pnpm install
+pnpm dev
 ```
 
-## Local Development
+Content lives in `docs/` and `blog/`; images are served from `public/img/`.
+The portfolio preserves the existing `/docs/*` and `/blog/welcome` URLs.
 
-```bash
-yarn start
+## Verification
+
+```sh
+pnpm typecheck
+pnpm build
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Cloudflare Pages
 
-## Build
+Next.js generates a static site in `out/`. Configure Pages with build command
+`pnpm build` and output directory `out` (previously `build`).
 
-```bash
-yarn build
+```sh
+pnpm preview
+pnpm deploy
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+`pnpm deploy` publishes using the authenticated Wrangler account and selected
+Pages project. The production domain is https://diegoromero.dev.

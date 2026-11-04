@@ -41,9 +41,9 @@ export default function TerminalBanner({
         >
           {"$"} whoami
         </div>
-        <div style={{ fontWeight: 800, fontSize: "2rem", color: "#00ff00" }}>
+        <h1 style={{ fontWeight: 800, fontSize: "2rem", color: "#00ff00", margin: "0.2rem 0" }}>
           {name} - Full-Stack Developer
-        </div>
+        </h1>
         <div
           style={{
             fontSize: "1rem",

@@ -25,3 +25,7 @@ yarn-error.log*
 !.dev.vars.example
 .env*
 !.env.example
+
+.next/
+out/
+*.tsbuildinfo
