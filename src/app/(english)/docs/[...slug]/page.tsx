@@ -5,7 +5,7 @@ export const dynamicParams = false;
 export function generateStaticParams() { return pages.map(page => ({ slug: page.slug.split('/') })); }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;
-  return { title: pages.find(page => page.slug === slug.join('/'))?.title, alternates: { canonical: `/docs/${slug.join('/')}/` } };
+  return { title: pages.find(page => page.slug === slug.join('/'))?.title, alternates: { canonical: `/docs/${slug.join('/')}/`, languages: { en: `/docs/${slug.join('/')}/`, es: `/es/docs/${slug.join('/')}/` } } };
 }
 export default async function DocPage({ params }: { params: Promise<{ slug: string[] }> }) {
   const { slug } = await params;

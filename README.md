@@ -53,3 +53,13 @@ node --test workers/contact/handler.test.mjs
 The `TURNSTILE_SECRET` Worker secret is managed in Cloudflare; never commit it.
 The public widget key is in `src/lib/contact-config.ts`. The widget is restricted
 to the production domain, so localhost and preview deployments cannot submit.
+
+## Languages
+
+English pages keep their original URLs. Spanish pages use `/es/`, with matching
+`/es/docs/*` routes. The header language switch opens the same page in the other
+language. Both versions render the correct HTML language and alternate-language
+metadata, and are included in the sitemap.
+
+Shared interface translations live in `src/lib/i18n.ts`; Spanish page content
+lives in `docs/es/`. The downloadable CV remains the original English PDF.

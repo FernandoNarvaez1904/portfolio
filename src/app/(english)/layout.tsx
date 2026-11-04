@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Navigation from '@/components/Navigation';
-import './globals.css';
+import '../globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://diegoromero.dev'),
   title: { default: 'Diego Romero Portfolio', template: '%s | Diego Romero' },
