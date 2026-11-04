@@ -11,8 +11,8 @@ pnpm install
 pnpm dev
 ```
 
-Content lives in `docs/` and `blog/`; images are served from `public/img/`.
-The portfolio preserves the existing `/docs/*` and `/blog/welcome` URLs.
+Content lives in `docs/`; images are served from `public/img/`.
+The portfolio preserves the existing `/docs/*` URLs.
 
 ## Verification
 
