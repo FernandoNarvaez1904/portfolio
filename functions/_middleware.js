@@ -10,7 +10,7 @@ export async function onRequest(context) {
   const escape = value => value.replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
   return new HTMLRewriter().on('head', {
     element(element) {
-      element.append(`<meta name="posthog-project-key" content="${escape(key)}"><meta name="posthog-api-host" content="${escape(apiHost.origin)}">`, { html: true });
+      element.prepend(`<meta name="posthog-project-key" content="${escape(key)}"><meta name="posthog-api-host" content="${escape(apiHost.origin)}">`, { html: true });
     },
   }).transform(response);
 }
