@@ -10,6 +10,13 @@ function encode(value) {
 
 export default {
   fetch(request, env) {
+    if (new URL(request.url).pathname === '/api/analytics-config') {
+      if (request.method !== 'GET') return new Response('Method not allowed.', { status: 405 });
+      if (!env.POSTHOG_PUBLIC_KEY || !env.POSTHOG_PUBLIC_HOST) return new Response('Analytics unavailable.', { status: 503 });
+      return Response.json({ key: env.POSTHOG_PUBLIC_KEY, host: env.POSTHOG_PUBLIC_HOST }, {
+        headers: { 'Cache-Control': 'public, max-age=3600' },
+      });
+    }
     if (new URL(request.url).pathname === '/api/cv-visit') {
       return handleCvVisit(request, env, async ({ subject, text, deliveryKey }) => {
         const id = env.CV_DELIVERIES.idFromName(deliveryKey);

@@ -9,12 +9,23 @@ try {
 }
 
 if (fromCv || continuingCvVisit) {
-  const key = process.env.NEXT_PUBLIC_POSTHOG_KEY || document.querySelector<HTMLMetaElement>('meta[name="posthog-project-key"]')?.content;
-  const host = process.env.NEXT_PUBLIC_POSTHOG_HOST || document.querySelector<HTMLMetaElement>('meta[name="posthog-api-host"]')?.content;
-  if (key && host) {
-    void import('posthog-js').then(({ default: posthog }) => {
-      posthog.init(key, {
-        api_host: host,
+  async function loadCvAnalytics() {
+    let key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
+    let host = process.env.NEXT_PUBLIC_POSTHOG_HOST;
+    if (!key || !host) {
+      const response = await fetch('/api/analytics-config');
+      if (!response.ok) return;
+      const config = await response.json();
+      if (typeof config.key !== 'string' || typeof config.host !== 'string') return;
+      key = config.key;
+      host = config.host;
+    }
+    if (!key || !host) return;
+    const configuredKey = key;
+    const configuredHost = host;
+    return import('posthog-js').then(({ default: posthog }) => {
+      posthog.init(configuredKey, {
+        api_host: configuredHost,
         ui_host: 'https://us.posthog.com',
         capture_pageview: 'history_change',
         autocapture: false,
@@ -47,8 +58,9 @@ if (fromCv || continuingCvVisit) {
           try { sessionStorage.setItem(notificationKey, 'true'); } catch {}
         },
       });
-    }).catch(() => {
-      // Analytics must never interrupt access to the portfolio.
     });
   }
+  void loadCvAnalytics().catch(() => {
+    // Analytics must never interrupt access to the portfolio.
+  });
 }
