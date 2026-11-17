@@ -9,8 +9,8 @@ try {
 }
 
 if (fromCv || continuingCvVisit) {
-  const key = process.env.NEXT_PUBLIC_POSTHOG_KEY;
-  const host = process.env.NEXT_PUBLIC_POSTHOG_HOST;
+  const key = process.env.NEXT_PUBLIC_POSTHOG_KEY || document.querySelector<HTMLMetaElement>('meta[name="posthog-project-key"]')?.content;
+  const host = process.env.NEXT_PUBLIC_POSTHOG_HOST || document.querySelector<HTMLMetaElement>('meta[name="posthog-api-host"]')?.content;
   if (key && host) {
     void import('posthog-js').then(({ default: posthog }) => {
       posthog.init(key, {

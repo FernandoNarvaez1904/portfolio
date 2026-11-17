@@ -38,7 +38,7 @@ export async function handleCvVisit(request, env, send) {
     'The recording may take a few moments to become available. Browser privacy tools can prevent recording.',
   ].join('\n');
   try {
-    await send({ subject: `CV visit — ${site}`, text });
+    await send({ subject: `CV visit — ${site}`, text, deliveryKey: `${url.hostname}:${body.session_id}:${url.pathname}` });
     return reply(200, 'Notification sent.');
   } catch {
     return reply(503, 'Notification delivery failed.');
