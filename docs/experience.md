@@ -6,9 +6,20 @@
 
 **Full-Stack Web Developer** | _October 2024 - Present_
 
-I work closely with clients to maintain a custom WordPress theme using **PHP**, **Tailwind**, and **jQuery**. This frontend connects with a **Node.js** backend built with **Express**. I have helped with the implementation of the REST API that connects with third party services like **Salesmate**, **Mailchimp**, **MemberPress**, **Sticky**, etc.
+I maintain a **membership portal for travel agents**, working closely with clients on a custom **WordPress** theme built with **PHP**, **Tailwind**, and **jQuery**, connected to a **custom API built with Node.js and Express**. I handle and maintain integrations with **car rental**, **hotel booking**, and other travel providers, alongside services such as **Salesmate**, **Mailchimp**, **MemberPress**, **Sticky**, and **Checkout Champ**. I orchestrate workflows and data exchange using **Zapier**, custom **APIs**, and **webhooks**.
+
+I **led the migration from LimeLight / Sticky.io to Checkout Champ**, transitioning the subscription billing platform.
 
 I also created a frontend in **React.js** for an internal application to be sold in the future. The frontend connects with a REST API created with **FastAPI**. I created the frontend using **React.js**, **Tailwind**, **Tanstack Router**, **React Query v5**, and **TypeScript**. I am using the **OpenAPI (Swagger)** spec to auto generate the types.
+
+I built a **React** frontend backed by **FastAPI** for a **mechanic shop**, handling **vehicle intake**, **owner notifications**, **repair status updates**, and **signed vehicle receipt forms**.
+
+**Unified Business Intelligence Platform**
+
+- Developed a unified data platform integrating **CRM**, **subscription billing**, **marketing attribution**, and **referral systems** into **Google BigQuery**.
+- Built **Python ingestion pipelines** and **layered SQL transformations** to clean, reconcile, and connect customer data across systems.
+- Developed a **Next.js** and **TypeScript** analytics portal for exploring membership performance, revenue, and marketing attribution.
+- Automated cloud infrastructure and deployment workflows using **Terraform**, **Google Cloud Run**, and **GitHub Actions**.
 
 ### Validia AI
 

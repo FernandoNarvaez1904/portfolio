@@ -6,9 +6,20 @@
 
 **Desarrollador web full-stack** | _Octubre de 2024 - Actualidad_
 
-Trabajo con clientes en el mantenimiento de un tema personalizado de WordPress con **PHP**, **Tailwind** y **jQuery**, conectado a un backend de **Node.js** con **Express**. He participado en la implementación de la API REST que integra servicios como **Salesmate**, **Mailchimp**, **MemberPress** y **Sticky**.
+Mantengo un **portal de membresías para agentes de viajes**, trabajando con clientes en un tema personalizado de **WordPress** con **PHP**, **Tailwind** y **jQuery**, conectado a una **API propia construida con Node.js y Express**. Gestiono y mantengo integraciones con proveedores de **alquiler de vehículos**, **reservas de hoteles** y otros servicios turísticos, además de **Salesmate**, **Mailchimp**, **MemberPress**, **Sticky** y **Checkout Champ**. Orquesto flujos de trabajo e intercambio de datos mediante **Zapier**, **APIs** propias y **webhooks**.
+
+**Lideré la migración de LimeLight / Sticky.io a Checkout Champ**, realizando la transición de la plataforma de facturación de suscripciones.
 
 También desarrollé el frontend de una aplicación interna en **React**, conectada a una API REST con **FastAPI**. Utilicé **Tailwind**, **TanStack Router**, **React Query v5** y **TypeScript**, generando los tipos a partir de la especificación **OpenAPI (Swagger)**.
+
+Desarrollé un frontend en **React** conectado a **FastAPI** para un **taller mecánico**, con **ingreso de vehículos**, **notificaciones a propietarios**, **actualizaciones del estado de las reparaciones** y **actas de recepción de vehículos firmadas**.
+
+**Plataforma unificada de inteligencia de negocios**
+
+- Desarrollé una plataforma de datos que integra **CRM**, **facturación de suscripciones**, **atribución de marketing** y **sistemas de referidos** en **Google BigQuery**.
+- Construí **procesos de ingesta en Python** y **transformaciones SQL por capas** para limpiar, conciliar y conectar datos de clientes entre sistemas.
+- Desarrollé un portal de analítica con **Next.js** y **TypeScript** para explorar el desempeño de las membresías, los ingresos y la atribución de marketing.
+- Automaticé infraestructura y despliegues con **Terraform**, **Google Cloud Run** y **GitHub Actions**.
 
 ### Validia AI
 

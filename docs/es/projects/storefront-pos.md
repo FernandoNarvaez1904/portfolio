@@ -43,11 +43,11 @@ La aplicación con Electron ofrece un espacio de trabajo para el mostrador, con 
 
 ## Mi trabajo de ingeniería
 
-El producto abarca el navegador, la computadora del mostrador y el backend. Mi trabajo incluye interfaces de usuario, reglas de negocio, integración de terminales de pago y conexión con dispositivos físicos.
+El producto abarca el navegador, la computadora del mostrador y el backend. Mi trabajo incluye interfaces de usuario, reglas de negocio, integración de **terminales de pago** y conexión con **dispositivos físicos**.
 
 - **Aplicación web**: React y TypeScript con Vite, TanStack Router, TanStack Query y componentes de interfaz compartidos.
 - **POS de escritorio**: Electron y React, con impresión térmica mediante ESC/POS y conexiones USB o impresoras del sistema.
-- **Pagos**: Integración con BAC Credomatic para ventas y reembolsos desde terminales.
+- **Pagos**: Integración con **BAC Credomatic** para **ventas con tarjeta** y **reembolsos** mediante **terminales de pago**, conectando **dispositivos físicos de caja** con los flujos de la aplicación.
 - **Backend y datos**: Hono sobre Bun, APIs con tRPC, PostgreSQL con Drizzle y Redis para estado compartido y mensajería.
 - **Autenticación y arquitectura**: Better Auth y un monorepo Bun/Turborepo con servicios de negocio separados para ventas, inventario, compras, pagos, contabilidad y otras áreas.
 

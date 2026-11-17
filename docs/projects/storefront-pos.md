@@ -52,11 +52,11 @@ The Electron app provides a dedicated checkout workspace for the counter, with p
 
 ## My Engineering Work
 
-The product spans the browser, the checkout computer, and the backend. My work includes building user interfaces, implementing retail business rules, integrating payment terminals, and connecting physical hardware with the application.
+The product spans the browser, the checkout computer, and the backend. My work includes building user interfaces, implementing retail business rules, integrating **payment terminals**, and connecting **physical hardware** with the application.
 
 - **Web application**: React and TypeScript with Vite, TanStack Router, TanStack Query, and shared UI components.
 - **Desktop POS**: An Electron application with React, plus thermal receipt printing through ESC/POS and USB or system printer transports.
-- **Payments**: BAC Credomatic integration for terminal payment workflows, including sales and refunds.
+- **Payments**: **BAC Credomatic** integration for **payment terminals**, **card sales**, and **refunds**, connecting **physical checkout hardware** with application workflows.
 - **Backend and data**: Hono running on Bun, tRPC APIs, PostgreSQL with Drizzle, and Redis for shared application state and messaging.
 - **Authentication and architecture**: Better Auth and a Bun/Turborepo monorepo with separate business services for sales, stock, purchasing, payments, accounting, and other domains.
 
